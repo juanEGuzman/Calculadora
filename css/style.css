@@ -1,0 +1,161 @@
+/* 
+Creador por: Ing. Juancito Peña V.
+Modificado Por: Juan E. Guzman
+Universidad: O&M Dominicana
+Materia: Interaccion Humano Computador
+Seccion: 1050
+Horario: 8:00 am a 10:00 am
+ */
+
+body {
+  background: lightblue;
+}
+.titulo{
+	
+	font-family:Homer Simpson UI;
+	font-size:18px;
+	text-align: center;
+	padding-bottom: 0px;
+}
+#calculadora {
+	width: 295px;
+	height: 295px;
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	background-image: url(https://www.dzoom.org.es/wp-content/uploads/2019/08/objetivos-lentes-ideales-paisaje-recomendados-rango-medio-35mm-734x489.jpg);
+	border-radius: 3px;
+	font-family:"Constantia", serif;
+	font-size:30px;
+	box-shadow:  0 01px gray,
+                 01px 0 gray,
+                 01px 02px gray,
+                 02px 01px gray,
+                 02px 03px gray,
+                 03px 02px gray,
+                 03px 04px gray,
+                 04px 03px gray,
+                 04px 05px gray,
+                 05px 04px gray,
+                 05px 06px gray,
+                 06px 05px gray;
+}
+
+.botones span, .top .vaciar {
+	float:left;
+	cursor:pointer;
+	width: 66px;
+	height: 40px;
+	background: white;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+	margin: 0 7px 11px 0;
+	box-shadow:  0 01px gray,
+                 01px 0 gray,
+                 01px 0px gray,
+                 02px 01px gray,
+                 03px 02px gray;
+	transition: all 0.5s ease;
+}
+
+.top .vaciar {
+	float:left;
+}
+
+.top .pantalla {
+	height: 40px;
+	width: 212px;
+	float: right;
+	margin-right:10px;
+	color: white;
+	text-align:right;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0 01px black,
+                inset 01px 0 black,
+                inset 01px 02px black,
+                inset 02px 01px black,
+                inset 02px 03px black,
+                inset 03px 02px black,
+                inset 03px 04px black;
+}
+
+.casio {
+	float:right;
+	color:white;
+	border-radius:5px;
+	padding-left:2px;
+	padding-right:2px;
+	text-shadow:2px 2px black;
+	
+}
+
+.botones, .top, .casio {
+	overflow: hidden;
+}
+
+.espacio{
+	height:6px;
+}
+
+.top .vaciar {
+	background:#d02f2f;
+	box-shadow:  0 01px gray,
+                 01px 0 gray,
+                 01px 0px gray,
+                 02px 01px gray,
+                 03px 02px gray;
+	color:white;
+}
+
+.botones .evaluar {
+	background: #79d161;
+	box-shadow:  0 01px gray,
+                 01px 0 gray,
+                 01px 0px gray,
+                 02px 01px gray,
+                 03px 02px gray;
+	color: white;
+}
+
+.top .clear {
+	background: #ff9fa8;
+	box-shadow: 0px 4px #ff7c87;
+	color: white;
+}
+
+.botones span:hover {
+	background: #509ee2;
+	color: white;
+}
+
+.botones span.evaluar:hover {
+	background: #abb850;
+	color: #ffffff;
+}
+
+.top span.vaciar:hover {
+	background: #f68991;
+	color: white;
+}
+
+.botones span:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.top span:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.botones span.evaluar:hover {
+	top: 4px;
+}
+
+.top span.vaciar:hover {
+	top: 4px;
+}
+
+
+
